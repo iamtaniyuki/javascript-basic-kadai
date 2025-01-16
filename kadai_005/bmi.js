@@ -8,7 +8,7 @@ bodyWeight = 68; // 体重を 68kg に設定
 height = 1.7; // 身長を 1.7m に設定
 
 // BMIを計算　[体重(kg)]÷[身長(m)×身長(m)]
-bodymassIndex = bodyWeight / (height * height)
+bodyMassIndex = bodyWeight / (height * height)
 
 // コンソールへの出力
-console.log(bodymassIndex);
+console.log(bodyMassIndex);
